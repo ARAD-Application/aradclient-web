@@ -1,9 +1,9 @@
 
 
 
-// export const BASE_URL = 'https://api.aradapp.dev/api';
+export const BASE_URL = 'https://api.aradapp.dev/api';
 // export const BASE_URL = 'http://localhost:8080/api';
-export const BASE_URL = 'http://localhost:1235/api';
+// export const BASE_URL = 'http://localhost:1235/api';
 // export const BASE_URL = 'http://192.168.1.118:8080/api';
 // export const BASE_URL = 'http://10.0.0.48:8080/api';
 
