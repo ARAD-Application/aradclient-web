@@ -33,6 +33,7 @@ function AssignLearningMaterialForm() {
         try {
             if (!selectedPerson || !date || learningMaterials === '') {
                 alert("Please fill in all fields.");
+                setIsLoading(false);
                 return;
             }
             const response = await fetch(OPERATION_URLS.ASSIGN_LEARNING_MATERIALS, {
